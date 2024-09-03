@@ -12,7 +12,7 @@
 
 ## Download:
 
-[devcontainer.zip](devcontainer.zip)
+[devcontainer.zip](https://github.com/leon332157/cs230_uca/raw/main/devcontainer.zip)
 
 ## Follow these steps:
 
