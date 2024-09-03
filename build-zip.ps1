@@ -1,0 +1,1 @@
+Compress-Archive -Path .\.devcontainer -DestinationPath .\devcontainer.zip
