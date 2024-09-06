@@ -58,12 +58,23 @@ type C:\Users\YOUR_USER\.ssh\id_ed25519.pub | ssh YOUR_EDLAB_USERNAME@elnux.cs.u
 
 ## Setting Up SSH Config File
 
+Run this LOCALLY on your machine
+
 First go into the `.ssh` directory and run the following commands 
+
+## Mac 
 
 ```bash
 cd ~/.ssh
 touch config
 vim config
+```
+
+## Windows
+
+```pwsh
+New-Item -Name $HOME/.ssh/config -ItemType File
+notepad $HOME/.ssh/config
 ```
 
 and paste (make sure the lines are indented) 
