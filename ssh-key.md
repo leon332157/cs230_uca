@@ -40,7 +40,7 @@ The key's randomart image is:
 
 ## Copy Your Public Key to Edlab
 
-## Mac users:
+## Mac users
 
 From the terminal run
 
@@ -48,7 +48,7 @@ From the terminal run
 ssh-copy-id YOUR_EDLAB_USAERNAME@elnux.cs.umass.edu
 ```
 
-## Windows uses
+## Windows users
 
 from the terminal that runs powershell
 
@@ -59,8 +59,6 @@ type C:\Users\YOUR_USER\.ssh\id_ed25519.pub | ssh YOUR_EDLAB_USERNAME@elnux.cs.u
 ## Setting Up SSH Config File
 
 Run this LOCALLY on your machine
-
-First go into the `.ssh` directory and run the following commands 
 
 ## Mac 
 
@@ -79,7 +77,8 @@ New-Item -Name $HOME/.ssh/config -ItemType File
 notepad $HOME/.ssh/config
 ```
 
-and paste (make sure the lines are indented) 
+
+Now put these into the files (make sure the lines are indented)
 
 ```bash
 Host edlab 
