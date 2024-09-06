@@ -5,7 +5,7 @@
 Open a terminal and run
 
 ```bash
-ssh-keygen
+ssh-keygen -t ed25519
 ```
 
 You should see an output like this
