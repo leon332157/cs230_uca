@@ -72,6 +72,8 @@ vim config
 
 ## Windows
 
+#### Run this in powershell!
+
 ```pwsh
 New-Item -Name $HOME/.ssh/config -ItemType File
 notepad $HOME/.ssh/config
