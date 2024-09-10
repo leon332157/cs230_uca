@@ -53,14 +53,14 @@ ssh-copy-id YOUR_EDLAB_USAERNAME@elnux.cs.umass.edu
 from the terminal that runs powershell
 
 ```pwsh
-type C:\Users\YOUR_USER\.ssh\id_ed25519.pub | ssh YOUR_EDLAB_USERNAME@elnux.cs.umass.edu "mkdir -p ~/.ssh;cat >> .ssh/authorized_keys"
+type $HOME\.ssh\id_ed25519.pub | ssh YOUR_EDLAB_USERNAME@elnux.cs.umass.edu "mkdir -p ~/.ssh;cat >> .ssh/authorized_keys"
 ```
 
 ## Setting Up SSH Config File
 
 Run this LOCALLY on your machine
 
-## Mac 
+## Mac
 
 ```bash
 cd ~/.ssh
@@ -76,7 +76,6 @@ vim config
 New-Item -Name $HOME/.ssh/config -ItemType File
 notepad $HOME/.ssh/config
 ```
-
 
 Now put these into the files (make sure the lines are indented)
 
